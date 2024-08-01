@@ -279,7 +279,51 @@
                                 "elementId": "overdue_needIts_score",
                                 "elementLabel": "Overdue NeedIts score",
                                 "eventMappings": [
-                                    
+                                    {
+                                        "eventMappingId": "clzaorjjlddaabbxmddbhhsibbyqfjqx",
+                                        "isConfiguration": false,
+                                        "offRowStorageId": null,
+                                        "sourceEventApiName": "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
+                                        "sourceEventCorrelationId": null,
+                                        "sourceEventDefinition": {
+                                            "apiName": "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
+                                            "id": null,
+                                            "type": "UXEVENT"
+                                        },
+                                        "sourceEventSysId": null,
+                                        "targets": [
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": {
+                                                    "apiName": "x_58872_needit.NAV_ITEM_SELECTED_RELAY_fa6c80f44773c61038b150fe316d43e8",
+                                                    "payload": {
+                                                        "type": "JSON_LITERAL",
+                                                        "value": {
+                                                            "external": null,
+                                                            "fields": {
+                                                                "table": "x_58872_needit_needit"
+                                                            },
+                                                            "multiInstField": null,
+                                                            "navigationOptions": null,
+                                                            "params": null,
+                                                            "passiveNavigation": null,
+                                                            "redirect": null,
+                                                            "route": "simple-list",
+                                                            "targetRoute": null,
+                                                            "title": "Overdue NeedIts"
+                                                        }
+                                                    },
+                                                    "sysId": "aeeefcb047bbc61038b150fe316d43eb"
+                                                },
+                                                "operation": null,
+                                                "targetId": "clzaorjjlddaabbxnddbhhsaxqhheiipn",
+                                                "type": "EVENT"
+                                            }
+                                        ]
+                                    }
                                 ],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
@@ -1309,9 +1353,7 @@
                                     }
                                 },
                                 "slot": null,
-                                "styles": {
-                                    "height": "250px"
-                                }
+                                "styles": null
                             }
                         ],
                         "layout": {
@@ -1335,6 +1377,7 @@
                                         "element_id": "request_type_pie",
                                         "styles": {
                                             "background": "Neutral 0",
+                                            "height": "250px",
                                             "margin": "var(--now-scalable-space--lg)",
                                             "margin-bottom": "var(--now-scalable-space--lg)",
                                             "margin-left": "var(--now-scalable-space--lg)",
@@ -1858,7 +1901,7 @@
     }
 ]</data>
         <description/>
-        <dispatched_events/>
+        <dispatched_events>aeeefcb047bbc61038b150fe316d43eb</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
@@ -1943,14 +1986,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-31 23:12:50</sys_created_on>
         <sys_id>fa6c80f44773c61038b150fe316d43e8</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name>NeedIt Admin home</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_macroponent_fa6c80f44773c61038b150fe316d43e8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-01 01:15:24</sys_updated_on>
+        <sys_updated_on>2024-08-01 03:01:28</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=fa6c80f44773c61038b150fe316d43e8"/>
 </record_update>
